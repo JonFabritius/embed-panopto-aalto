@@ -1,12 +1,12 @@
 <?php
 
 /*
-Plugin Name: Embed Panopto
-Plugin URI: https://github.com/schrauger/embed-panopto
-Description: WordPress Block for embedding Panopto videos and playlists.
-Version: 2.2.1
-Author: Stephen Schrauger
-Author URI: https://schrauger.com
+Plugin Name: Embed Panopto Aalto
+Plugin URI: https://github.com/JonFabritius/embed-panopto-aalto
+Description: WordPress Block for embedding Panopto videos and playlists, tweaked for Aalto University
+Version: 1.0
+Author: Jon Fabritius based 99.9% on Stephen Schrauger
+Author URI: https://studios.aalto.fi
 License: GPLv3
 */
 

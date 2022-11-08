@@ -70,7 +70,7 @@ class PanoptoBlock {
 		}
 
 		if (($url)
-		    && (self::endsWith(strtolower($url['host']), "panopto.com"))
+		    && (self::endsWith(strtolower($url['host']), "panopto.eu"))
 		    && (self::startsWith(strtolower($url['path']), "/panopto/pages/embed.aspx"))){
 
 			$s_url = esc_attr($u_url);

@@ -25,8 +25,8 @@ registerBlockType('embed-panopto/block-panopto', {
             let url = new URL(u_url);
             let valid = true;
 
-            // hostname must be a subdomain of panopto.com
-            if (!(url.hostname.toLowerCase().endsWith("panopto.com"))){
+            // hostname must be a subdomain of panopto.eu
+            if (!(url.hostname.toLowerCase().endsWith("panopto.eu"))){
                 valid = false;
             }
             const viewer = "/panopto/pages/viewer.aspx";
@@ -58,8 +58,13 @@ registerBlockType('embed-panopto/block-panopto', {
                             submitted: "valid"
                         });
                     } else {
-                        props.setAttributes({
+                        /* props.setAttributes({
                             submitted: "invalid"
+                        }); */
+                        
+                        // Crudely bypass CORS issue with server by not checking for actual validity
+                        props.setAttributes({
+                            submitted: "valid"
                         });
                     }
                 }

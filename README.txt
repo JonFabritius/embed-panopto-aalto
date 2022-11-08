@@ -1,3 +1,6 @@
+=== Embed Panopto Aalto ===
+Quick set of tweaks to provide a temporary solution for .eu based server with strict CORS policies.
+
 === Embed Panopto ===
 Contributors: schrauger
 Tags: panopto,video,embed,block,gutenberg
